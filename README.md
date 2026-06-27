@@ -2,7 +2,22 @@
 
 A fully intensive TypeScript course for my programming colleagues at the company.
 
-## Step 1
+## Lessons
+
+- **001 Variables**: Variables plus type annotation.
+- **002 Functions**: Functions stricts in TypeScript.
+- **003 Interfaces**: Make an object organized.
+- **004 Unions**: One type of many types you say.
+- **005 Intersections**: Combine 2 interfaces.
+- **006 Enums**: Consume it is your dictionary.
+- **007 Generics**: My favorite part of TypeScript.
+- **008 ReadOnly**: Make a variable readonly.
+
+### How to get start?
+
+Just follow these steps:
+
+### Step 1
 
 Make a directory and install typescript inside it.
 
@@ -12,7 +27,7 @@ cd tutorial
 npm i typescript
 ```
 
-## Step 2
+### Step 2
 
 You need a `tsconfig.json` file and this is how you get it.
 
@@ -20,7 +35,7 @@ You need a `tsconfig.json` file and this is how you get it.
 npx tsc --init
 ```
 
-## Step 3
+### Step 3
 
 Make a file and start writing code.
 
@@ -68,7 +83,7 @@ Amirhossein.department = Department.Software;
 console.log(Amirhossein);
 ```
 
-# Step 4
+### Step 4
 
 Compile and run.
 
@@ -81,3 +96,14 @@ It will generates your compiled TypeScript to JavaScript and you can run using n
 ```bash
 node dist/006-enums.js
 ```
+
+## Lessons
+
+- **001 Variables**: Variables plus type annotation.
+- **002 Functions**: Functions stricts in TypeScript.
+- **003 Interfaces**: Make an object organized.
+- **004 Unions**: One type of many types you say.
+- **005 Intersections**: Combine 2 interfaces.
+- **006 Enums**: Consume it is your dictionary.
+- **007 Generics**: My favorite part of TypeScript.
+- **008 ReadOnly**: Make a variable readonly.
